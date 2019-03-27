@@ -105,7 +105,7 @@ public class CrimeLab {
                         "yyyy-MM-dd",
                         Locale.getDefault()
                 ).parse(dateString);
-                boolean isSolved = (solvedString == "1");
+                boolean isSolved = (solvedString.equals("1"));
 
                 // Add the Crime to the Crime list
                 mCrimes.add(
